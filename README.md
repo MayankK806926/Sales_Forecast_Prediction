@@ -50,6 +50,9 @@ sales-forecast-prediction/
 ├── models/             # Saved models
 ├── notebooks/          # Jupyter notebooks
 ├── src/                # Source code
+├── images/             # Results images
+│   ├── sales_trend.png
+│   └── predictions_plot.png
 ├── README.md           # Project documentation
 ├── requirements.txt    # Python dependencies
 └── main.py             # Main executable script
@@ -59,3 +62,6 @@ The model achieves an RMSE of 734.63 on the test set, indicating good predictive
 Sample visualizations:
 - Sales trend over time
 - Actual vs predicted sales comparison
+![Sales Trend Visualization](./images/sales_trend.png)
+![Predictions Plot Visualization](./images/predictions_plot.png)
+
